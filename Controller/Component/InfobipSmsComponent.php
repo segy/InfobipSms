@@ -28,6 +28,7 @@ class InfobipSmsComponent extends Component {
     public function setCredentials($username, $password) {
         $this->settings['username'] = $username;
         $this->settings['password'] = $password;
+
         return $this;
     }
 
@@ -39,6 +40,7 @@ class InfobipSmsComponent extends Component {
      */
     public function setSender($sender) {
         $this->settings['sender'] = $sender;
+
         return $this;
     }
 
@@ -50,6 +52,7 @@ class InfobipSmsComponent extends Component {
      */
     public function setDefaultPrefix($prefix) {
         $this->settings['default_prefix'] = $prefix;
+
         return $this;
     }
 
